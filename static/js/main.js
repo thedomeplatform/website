@@ -148,7 +148,7 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
       // Display the result in the element with id="demo"
-      document.getElementById("demo").innerHTML = "First Bonus Period ends in: " + days + "d " + hours + "h "
+      document.getElementById("demo").innerHTML = "20% Bonus Period ends in: " + days + "d " + hours + "h "
       + minutes + "m " + seconds + "s ";
     
       // If the count down is finished, write some text 
