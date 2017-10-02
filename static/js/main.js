@@ -1,14 +1,13 @@
 (function($) {
     $('.form-check-input').click(function(){
 	var checkbox1 = $('#terms_checkbox1')
-	var checkbox2 = $('#terms_checkbox2')
-    	if(checkbox1.is(':checked') && checkbox2.is(':checked'))
+    	if(checkbox1.is(':checked'))
     	{
-    		$('#next-personal').prop('disabled',false);
+    		$('#contract_button').prop('disabled',false);
     	}
     	else
     	{
-    		$('#next-personal').prop('disabled',true);
+    		$('#contract_button').prop('disabled',true);
     	}
     });
 
@@ -196,14 +195,13 @@
     });
     $( document ).ready(function() {
 	var checkbox1 = $('#terms_checkbox1')
-	var checkbox2 = $('#terms_checkbox2')
-    	if(checkbox1.is(':checked') && checkbox2.is(':checked'))
+    	if(checkbox1.is(':checked'))
     	{
-    		$('#next-personal').prop('disabled',false);
+    		$('#contract_button').prop('disabled',false);
     	}
     	else
     	{
-    		$('#next-personal').prop('disabled',true);
+    		$('#contract_button').prop('disabled',true);
     	}
     });
 
