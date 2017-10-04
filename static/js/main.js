@@ -160,7 +160,7 @@
 
     function init_values() {
     	$('#eth-contr').val(0.1);
-    	$('#total-bonus-dme').val(201.25);
+    	$('#total-bonus-dme').val(192.5);
     	$('#total-dme').val(175);
     }
 
